@@ -1,0 +1,55 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Routers",
+      "company": "Cisco",
+	  "revenue":"33 billion dollars",
+	  "status":"Good",
+	  "ceo":{"img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGUmO0Jxj2EHaPGKCrdeSb5x6ZoODiQ88IdgaZH6aS9mwRcciGoA","name":"John Chambers"}
+
+    },
+	{
+      "id": 2,
+      "title": "Cloud",
+      "company": "Amazon",
+	  "revenue":"99 billion dollars",
+	  "status":"Great",
+	  "ceo":{"img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJHvKLIlSmyNHDDcbVsYKH2fXk_vXSfxnEY4IrJs1Gxeed3hoLFg","name":"Jeff Bezos"}
+    },
+	{
+      "id": 3,
+      "title": "Operating System",
+      "company": "Microsoft",
+	  "revenue":"90 billion dollars",
+	  "status":"Good",
+	  "ceo":{"img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSet1hdy0ATeWuyo4oiT9x-qGkVlOm3kfk6iIXsKqYKdvhy2tV_tQ","name":"Bill Gates"}
+    },   
+	{
+      "id": 4,
+      "title": "Search engine",
+      "company": "Google",
+	  "revenue":"120 billion dollars",
+	  "status":"Excellent",
+	  "ceo":{"img":"https://tctechcrunch2011.files.wordpress.com/2013/05/photo-6.jpg?w=250","name":"Larry Page"}
+    },
+    {
+      "id": 5,
+      "title": "Space",
+      "company": "Space X",
+	  "revenue":"100 billion dollars",
+	  "status":"Awesome",
+	  "ceo":{"img":"https://i2.wp.com/dailysunknoxville.com/wp-content/uploads/2016/02/20150211151941-elon-musk-tesla-motors-e1456554896570.jpeg?resize=250%2C250","name":"Elon Musk"}
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
