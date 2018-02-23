@@ -1,0 +1,17 @@
+<div class="container" >
+    <table class="table table-hover">
+        <thead>
+            <th>Title</th>
+            <th>Comapny</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let product of data" >
+                <td>{{product.title}}</td>
+                <td>{{product.company}}</td>
+                 <td>{{product.status}}</td>
+                <td><button class="btn btn-info"><a routerLink="/product/{{product.id}}">More</a></button></td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

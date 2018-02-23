@@ -1,0 +1,54 @@
+<div class="container bootstrap snippet">
+<div class="row ng-scope">
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-body text-center">
+                <div class="pv-lg"><img class="center-block img-responsive img-circle img-thumbnail thumb96" src="{{result.ceo.img}}" alt="Contact"></div>
+                <h3 class="m0 text-bold">{{result.ceo.name}}</h3>
+                <div class="mv-lg">
+                    <p>Have fun!</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-md-8">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="h4 text-center">Product Information</div>
+                <div class="row pv-lg">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8">
+                  <table class="table table-user-information">
+                    <tbody>
+                      <tr>
+                        <td>Title</td>
+                        <td>{{result.title}}</td>
+                      </tr>
+                      <tr>
+                        <td>Company</td>
+                        <td>{{result.company}}</td>
+                      </tr>
+                      <tr>
+                        <td>Status</td>
+                        <td>{{result.status}}</td>
+                      </tr>
+                      <tr>
+                        <td>Revenue</td>
+                        <td>{{result.revenue}}</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  ---{{result.id}}
+                    <div class="col-sm-offset-2 col-sm-10">
+                         <button class="btn btn-info" type="submit"><a routerLink="/product/update/{{result.id}}">Update</a></button>
+                         <button class="btn btn-danger" type="submit">Delete</button>
+                     </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
